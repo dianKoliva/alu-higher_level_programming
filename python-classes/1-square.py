@@ -1,7 +1,10 @@
 #!/usr/bin/python3
 
 
+
 class Square:
-# This creates an instance size of a square
-    def __init__(self,size):
-        self.size=size
+    """Private instance attribute: size
+    Instantiation with size (no type/value verification)
+    no imporation of modules"""
+    def __init__(self, size):
+        self.__size = size
